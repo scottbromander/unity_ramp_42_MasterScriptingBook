@@ -24,6 +24,7 @@ public class Village : MonoBehaviour {
 		characters [4] = new WomanCharacter ();
 
 		EnterTavern ();
+		NotOperation ();
 	}
 
 	/// <summary>
@@ -43,5 +44,10 @@ public class Village : MonoBehaviour {
 	/// <param name="y">The y coordinate.</param>
 	public float TestMethod(float x, float y){
 		return x + y;
+	}
+
+	private void NotOperation(){
+		var notTest = (characters.Length < 5) ? "Yerp" : "Nerp";
+		Debug.Log (notTest);
 	}
 }
