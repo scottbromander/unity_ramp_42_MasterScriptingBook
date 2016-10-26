@@ -18,9 +18,22 @@ public class Village : MonoBehaviour {
 		EnterTavern ();
 	}
 
+	/// <summary>
+	/// Enters the tavern.
+	/// </summary>
 	public void EnterTavern(){
 		foreach (Characters Char in characters) {
 			Char.SayGreeting ();
 		}
+	}
+
+	/// <summary>
+	/// Tests the method.
+	/// </summary>
+	/// <returns>The method.</returns>
+	/// <param name="x">The x coordinate.</param>
+	/// <param name="y">The y coordinate.</param>
+	public float TestMethod(float x, float y){
+		return x + y;
 	}
 }
