@@ -5,6 +5,14 @@ public class Village : MonoBehaviour {
 
 	public Characters[] characters = null;
 
+	public int publicTestVar1 = 4;
+
+	[SerializeField]
+	private int privateTestVar1 = 6;
+
+	[HideInInspector]
+	public int publicTestVar2 = 8;
+
 	// Use this for initialization
 	void Start () {
 		characters = new Characters[5];
