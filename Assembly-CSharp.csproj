@@ -47,9 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BroadcastScripts\Broadcaster.cs" />
      <Compile Include="Assets\Scripts\BroadcastScripts\Receiver.cs" />
-     <Compile Include="Assets\Scripts\ChapterOneEnemyStates.cs" />
-     <Compile Include="Assets\Scripts\ChapterOneLife.cs" />
-     <Compile Include="Assets\Scripts\ChapterOneRotate.cs" />
+     <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneEnemyStates.cs" />
+     <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneLife.cs" />
+     <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneRotate.cs" />
+     <Compile Include="Assets\Scripts\DebugCode\EnemyOgre.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Characters.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Village.cs" />
  <Reference Include="UnityEngine.Networking">
