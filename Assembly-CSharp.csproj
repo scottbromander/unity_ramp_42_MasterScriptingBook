@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneRotate.cs" />
      <Compile Include="Assets\Scripts\DebugCode\CubeScript.cs" />
      <Compile Include="Assets\Scripts\DebugCode\EnemyOgre.cs" />
+     <Compile Include="Assets\Scripts\DebugCode\GizmoCube.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Characters.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Village.cs" />
  <Reference Include="UnityEngine.Networking">

@@ -79,6 +79,7 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
+-define:SHOW_DEBUG_MESSAGES
 'Assets/Scripts/BroadcastScripts/Broadcaster.cs'
 'Assets/Scripts/BroadcastScripts/Receiver.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneEnemyStates.cs'
@@ -86,6 +87,7 @@
 'Assets/Scripts/ChapterOneExamples/ChapterOneRotate.cs'
 'Assets/Scripts/DebugCode/CubeScript.cs'
 'Assets/Scripts/DebugCode/EnemyOgre.cs'
+'Assets/Scripts/DebugCode/GizmoCube.cs'
 'Assets/Scripts/VillageScripts/Characters.cs'
 'Assets/Scripts/VillageScripts/Village.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
