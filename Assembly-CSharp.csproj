@@ -50,6 +50,10 @@
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneEnemyStates.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneLife.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneRotate.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ChildOneComponent.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ChildThreeComponent.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ChildTwoComponent.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\MasterComponent.cs" />
      <Compile Include="Assets\Scripts\DebugCode\CubeScript.cs" />
      <Compile Include="Assets\Scripts\DebugCode\EnemyOgre.cs" />
      <Compile Include="Assets\Scripts\DebugCode\GizmoCube.cs" />
