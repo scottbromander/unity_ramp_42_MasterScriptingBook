@@ -85,6 +85,7 @@
 'Assets/Scripts/ChapterOneExamples/ChapterOneEnemyStates.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneLife.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneRotate.cs'
+'Assets/Scripts/ChapterThree/ChapterThreeCubeScript.cs'
 'Assets/Scripts/ChapterThree/ChildOneComponent.cs'
 'Assets/Scripts/ChapterThree/ChildThreeComponent.cs'
 'Assets/Scripts/ChapterThree/ChildTwoComponent.cs'

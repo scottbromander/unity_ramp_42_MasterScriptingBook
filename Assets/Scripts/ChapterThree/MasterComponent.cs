@@ -12,6 +12,9 @@ public class MasterComponent : MonoBehaviour {
 		foreach (Component C in AllComponents) {
 			Debug.Log (C.ToString ());
 		}
+
+		var go = GameObject.FindGameObjectWithTag ("AwesomeCube");
+		Debug.Log (go.ToString ());
 	}
 	
 	// Update is called once per frame
