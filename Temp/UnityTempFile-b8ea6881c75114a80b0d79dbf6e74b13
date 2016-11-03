@@ -80,11 +80,14 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
 -define:SHOW_DEBUG_MESSAGES
+'Assets/PlayerScript.cs'
 'Assets/Scripts/BroadcastScripts/Broadcaster.cs'
 'Assets/Scripts/BroadcastScripts/Receiver.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneEnemyStates.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneLife.cs'
 'Assets/Scripts/ChapterOneExamples/ChapterOneRotate.cs'
+'Assets/Scripts/ChapterThree/ChapterThreeCubeScript.cs'
+'Assets/Scripts/ChapterThree/ChildEnemy.cs'
 'Assets/Scripts/ChapterThree/ChildOneComponent.cs'
 'Assets/Scripts/ChapterThree/ChildThreeComponent.cs'
 'Assets/Scripts/ChapterThree/ChildTwoComponent.cs'
