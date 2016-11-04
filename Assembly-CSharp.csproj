@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneEnemyStates.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneLife.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneRotate.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\BasicEnemyMovement.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChapterThreeCubeScript.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildEnemy.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildOneComponent.cs" />
