@@ -5,3 +5,4 @@ Content covered thus far:
 - CSharp recap, focusing much on OOP concepts
 - Debugging methods (Beyond just Debug.log)
 - GameObject Component Communication Methods
+- Update considerations in Physics and other Movement
