@@ -29,7 +29,6 @@ public class BasicEnemyMovement : MonoBehaviour {
 
 		transform.localPosition += new Vector3 (0, 0, movement);
 
-		Debug.Log ("Amount Moved: " + _amountMoved);
 		_amountMoved += Mathf.Abs(movement);
 	}
 }

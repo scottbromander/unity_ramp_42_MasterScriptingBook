@@ -52,17 +52,20 @@
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneLife.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneRotate.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\BasicEnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ChangeSceneAfterTime.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChapterThreeCubeScript.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildEnemy.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildOneComponent.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildThreeComponent.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildTwoComponent.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ImmortalObject.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\MasterComponent.cs" />
      <Compile Include="Assets\Scripts\DebugCode\CubeScript.cs" />
      <Compile Include="Assets\Scripts\DebugCode\EnemyOgre.cs" />
      <Compile Include="Assets\Scripts\DebugCode\GizmoCube.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Characters.cs" />
      <Compile Include="Assets\Scripts\VillageScripts\Village.cs" />
+     <Compile Include="Assets\ThreeTwoScene.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

@@ -14,7 +14,7 @@ public class PlayerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!Physics.Linecast (transform.position, Enemy.transform.position, lm)) {
-			Debug.Log ("PathClear");
+			//Debug.Log ("PathClear");
 		}
 	}
 
