@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ChapterThree\BasicEnemyMovement.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChangeSceneAfterTime.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChapterThreeCubeScript.cs" />
+     <Compile Include="Assets\Scripts\ChapterThree\ChapterThreeGameManager.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildEnemy.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildOneComponent.cs" />
      <Compile Include="Assets\Scripts\ChapterThree\ChildThreeComponent.cs" />

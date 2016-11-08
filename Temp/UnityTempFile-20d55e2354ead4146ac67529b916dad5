@@ -89,6 +89,7 @@
 'Assets/Scripts/ChapterThree/BasicEnemyMovement.cs'
 'Assets/Scripts/ChapterThree/ChangeSceneAfterTime.cs'
 'Assets/Scripts/ChapterThree/ChapterThreeCubeScript.cs'
+'Assets/Scripts/ChapterThree/ChapterThreeGameManager.cs'
 'Assets/Scripts/ChapterThree/ChildEnemy.cs'
 'Assets/Scripts/ChapterThree/ChildOneComponent.cs'
 'Assets/Scripts/ChapterThree/ChildThreeComponent.cs'
