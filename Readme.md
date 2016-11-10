@@ -8,3 +8,4 @@ Content covered thus far:
 - Update considerations in Physics and other Movement
 - Immortal Objects
 - Singleton Pattern
+- Update Loop Resource Considerations
