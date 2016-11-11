@@ -7,3 +7,5 @@ Content covered thus far:
 - GameObject Component Communication Methods
 - Update considerations in Physics and other Movement
 - Immortal Objects
+- Singleton Pattern
+- Update Loop Resource Considerations
