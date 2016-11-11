@@ -17,6 +17,7 @@ public class ChangeSceneAfterTime : MonoBehaviour {
 		currentTime += Time.deltaTime;
 		if (currentTime > timeUntilChange) {
 			Application.LoadLevel ("Chapter3_2");
+			timeUntilChange = 1000.0f;
 		}
 	}
 }
