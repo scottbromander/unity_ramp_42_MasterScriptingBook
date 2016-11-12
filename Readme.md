@@ -6,6 +6,6 @@ Content covered thus far:
 - Debugging methods (Beyond just Debug.log)
 - GameObject Component Communication Methods
 - Update considerations in Physics and other Movement
-- Immortal Objects
+- Immortal Objects and Persistence Considerations 
 - Singleton Pattern
 - Update Loop Resource Considerations
