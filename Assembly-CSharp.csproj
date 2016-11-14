@@ -48,6 +48,7 @@
      <Compile Include="Assets\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\BroadcastScripts\Broadcaster.cs" />
      <Compile Include="Assets\Scripts\BroadcastScripts\Receiver.cs" />
+     <Compile Include="Assets\Scripts\ChapterFour\EventManager.cs" />
      <Compile Include="Assets\Scripts\ChapterFour\IListener.cs" />
      <Compile Include="Assets\Scripts\ChapterFour\MyCustomListener.cs" />
      <Compile Include="Assets\Scripts\ChapterOneExamples\ChapterOneEnemyStates.cs" />
