@@ -29,6 +29,11 @@ public class EventManager : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// Function to add listener to array of listeners
+	/// </summary>
+	/// <param name="Event_Type">Event to Listen for</param>
+	/// <param name="Listener">Object to listen for event</param>
 	public void AddListener(EVENT_TYPE Event_Type, IListener Listener){
 		List<IListener> ListenList = null;
 
@@ -42,13 +47,31 @@ public class EventManager : MonoBehaviour {
 		ListenList.Add(Event_Type, ListenList);
 	}
 
-	// Use this for initialization
-	void Start () {
-	
+	/// <summary>
+	/// Function to post event to listeners
+	/// </summary>
+	/// <param name="Event_Type">Event to invoke</param>
+	/// <param name="Sender">Object invoking event</param>
+	/// <param name="Param">Optional argument</param>
+	public void PostNotification(EVENT_TYPE Event_Type, Component Sender, Object Param = null){
+		List<IListener> ListenList = null;
+
+		if(!Listeners.TryGetValue(Event_Type, out ListenList)){
+			return;
+		}
+
+		for (int i = 0; i < ListenList.Count; i++) {
+			if (!ListenList [i].Equals (null)) {
+				ListenList [i].OnEvent (Event_Type, Sender, Param);
+			}
+				
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void RemoveEvent(EVENT_TYPE Event_Type){
+		Listeners.Remove (Event_Type);
 	}
+
+
+	#endregion
 }
